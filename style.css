@@ -1,0 +1,71 @@
+/* style.css */
+
+/* Gaya umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4789e0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .content {
+    background-color: #b6d9f1;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .media {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #0b0303;
+  }
+  
+  p {
+    color: #0c0707;
+  }
+  
+  /* Gaya untuk elemen media */
+  audio,
+  video,
+  img {
+    display: block;
+    margin: 20px 0;
+  }
+  
+  /* Gaya untuk tombol survei */
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .survey-button {
+    padding: 10px 20px;
+    background-color: #032440;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .survey-button:hover {
+    background-color: #555;
+  }

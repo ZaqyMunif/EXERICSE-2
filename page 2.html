@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>DOM Javascript</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Form Survey</h3>
+        </div>
+        <form action="">
+            <label for="nama">Nama</label><br>
+            <input type="text" placeholder="Nama anda" id="nama" required><br><br>
+            <label for="nim">NIM</label><br>
+            <input type="text" placeholder="NIM anda" id="nim" required><br>
+            <p>Jurusan:</p>
+
+            <input type="radio" name="Jurusan" id="TI" value="TI">
+            <label for="TI">TI</label><br>
+            <input type="radio" name="Jurusan" id="TS" value="TS">
+            <label for="TS">TS</label><br>
+            <input type="radio" name="Jurusan" id="TM" value="TM">
+            <label for="TM">TM</label><br>
+            <input type="radio" name="Jurusan" id="TE" value="TE">
+            <label for="TE">TE</label><br>
+            <label for="">Alamat</label><br>
+            <textarea placeholder="Tulis Alamatmu Disini" name="alamat" id="alamat" cols="30"
+                rows="5"></textarea><br><br>
+            <label for="angkatan">Pilih Angkatan:</label><br>
+            <select id="angkatan">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select><br>
+            <label for="tanggal">Tanggal</label><br>
+            <input type="date" id="tanggal"><br><br>
+            <button type="submit" onclick="kirimData()">Kirim</button>
+            <button onclick="window.location.href='index.html'"> Kembali</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
